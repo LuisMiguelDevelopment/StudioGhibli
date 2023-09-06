@@ -197,3 +197,19 @@ body{
 
 }
 
+
+
+@media screen and (max-width:600px) {
+    .section1{ 
+        display: block;
+    }
+    .section1__izq{ 
+        width: 100%;
+    }
+    
+    .section2__der{ 
+        width: 70%;
+        background-image: url(../img/totoro3.jpeg);
+    }
+
+}

@@ -5,18 +5,195 @@
 
 
 body{
-    
+    background-image: url(../img/totoro.jpeg);
 }
 .header {
     width: 100%;
-    height: 110px;
+    height: 150px;
     display: flex;
     justify-content: space-between;
-    backdrop-filter: blur(4px); /* Utiliza backdrop-filter en lugar de filter */
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.20);
+    backdrop-filter: blur(7px);
 }
 
 .header__img2 {
-    height: 70px;
+    height: 100px;
     padding: 20px;
 }
+
+.section1{
+    display: flex;
+    width: 100%;
+}
+
+.section1__izq{
+    background-image: url(../img/fantasma\ -\ copia.png);
+    height: 500px;
+    width: 70%;
+    background-size: cover;
+}
+
+.section1__title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    height: 100%;
+    color: white;
+}
+
+.section1__der{
+    background-image: url(../img/avion.png);
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+}
+
+
+.section2{
+    display: flex;
+}
+.section2__izq{
+    width: 60%;
+}
+
+.section2__der{
+    background-image:url(../img/totoro2.webp);
+    height: auto;
+    width: 100%;
+    background-size: cover;
+}
+
+.section2__title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    height: 100%;
+    color: white;
+}
+
+
+.footer{
+    height: auto;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.20);
+    backdrop-filter: blur(7px);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content:center;
+}
+
+.footer__seccion1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.footer__seccion2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.footer__a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+.footer__seccion1 ,.footer__seccion2{
+    margin: 50px;
+}
+
+
+
+@media screen and (min-width:600px) {
+    .section1__izq{ 
+        width: 30%;
+    }
+    .section1__der{ 
+        width: 70%;
+    }
+    .section2__izq{ 
+        width: 30%;
+    }
+    .section2__der{ 
+        width: 70%;
+        background-image: url(../img/totoro3.jpeg);
+    }
+
+}
+
+
+@media screen and (min-width:768px) {
+    .section1__izq{ 
+        width: 70%;
+    }
+    .section1__der{ 
+        width: 30%;
+    }
+    .section2__izq{ 
+        width: 70%;
+    }
+    .section2__der{ 
+        width: 30%;
+       
+    }
+
+}
+
+
+@media screen and (min-width:992px) {
+    .section1__izq{ 
+        width: 40%;
+    }
+    .section1__der{ 
+        width: 60%;
+    }
+    .section2__izq{ 
+        width: 80%;
+    }
+    .section2__der{ 
+        width: 20%;
+        background-image: url(../img/totoro4.jpeg);
+    }
+
+}
+
+
+@media screen and (min-width:1200px) {
+    .section2{
+        flex-direction: row-reverse;
+    }
+    .section1__izq{ 
+        width: 60%;
+    }
+    .section1__mid{
+        background-image: url(../img/zeroJapones.png);
+        width: 20%;
+        height: auto;
+    }
+    .section1__der{ 
+        width: 20%;
+    }
+    .section2__izq{ 
+        width: 60%;
+    }
+    .section2__mid{
+        background-image: url(../img/casa.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 20%;
+        height: auto;
+    }
+    .section2__der{ 
+        width: 20%;
+        background-image: url(../img/totoro4.jpeg);
+    }
+
+}
+

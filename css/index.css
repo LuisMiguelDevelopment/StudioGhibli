@@ -52,6 +52,34 @@ body{
 }
 
 
+.section1__a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    opacity: 0;
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.section1__a:hover{
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.20);
+    backdrop-filter: blur(7px);
+}
+
+
+
+.section2__title:hover{
+    background-color: rgba(255, 255, 255, 0.20);
+    backdrop-filter: blur(7px);
+}
+
+
+
 .section2{
     display: flex;
 }
@@ -74,6 +102,8 @@ body{
     font-size: 5rem;
     height: 100%;
     color: white;
+    font-size: 3.5rem;
+    text-decoration: none;
 }
 
 
@@ -207,14 +237,21 @@ body{
     .section1__izq{ 
         width: 100%;
     }
+    .section1__der{ 
+        width: 100%;
+    }
+
+    .section2{
+        display: block;
+    }
     
     .section2__der{ 
         width: 100%;
         background-image: url(../img/totoro3.jpeg);
+        height: 200px;
     }
     .section2__izq{ 
         width: 100%;
-       
     }
 
     .header__img2 {
@@ -222,8 +259,6 @@ body{
         padding: 20px;
     }
 
-    .section2{
-        display: block;
-    }
+    
 
 }

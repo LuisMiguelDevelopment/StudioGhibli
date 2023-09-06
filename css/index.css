@@ -6,6 +6,7 @@
 
 body{
     background-image: url(../img/totoro.jpeg);
+    
 }
 .header {
     width: 100%;
@@ -208,8 +209,21 @@ body{
     }
     
     .section2__der{ 
-        width: 70%;
+        width: 100%;
         background-image: url(../img/totoro3.jpeg);
+    }
+    .section2__izq{ 
+        width: 100%;
+       
+    }
+
+    .header__img2 {
+        height: 70px;
+        padding: 20px;
+    }
+
+    .section2{
+        display: block;
     }
 
 }

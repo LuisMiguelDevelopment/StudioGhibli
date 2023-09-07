@@ -1,11 +1,14 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 
 
 body{
     background-image: url(../img/totoro.jpeg);
+    width: 100vw;
+    height: 100vh;
     
 }
 .header {
@@ -231,6 +234,11 @@ body{
 
 
 @media screen and (max-width:600px) {
+    
+    .header{
+        height: 120px;
+    }
+    
     .section1{ 
         display: block;
     }
@@ -256,6 +264,21 @@ body{
 
     .header__img2 {
         height: 70px;
+        padding: 20px;
+    }
+
+    
+
+}
+
+@media screen and (max-width:382px) {
+  
+    .header{
+        height: 100px;
+    }
+
+    .header__img2 {
+        height: 50px;
         padding: 20px;
     }
 
